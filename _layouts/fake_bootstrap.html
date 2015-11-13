@@ -28,6 +28,7 @@
 <div class="container">
   <h1>{{ page.title }} <small> {{ page.description }} </small></h1>
 <div class="row">
+  {% if page.category=="Getting Started"%}
   <div class="col-md-3">
     <ul class="list-unstyled">
       <li>Download</li>
@@ -35,7 +36,7 @@
       <li>Compliling CSS and Javascript</li>
       <li>Basic Template</li>
     </ul>
-  </div>
+{% endif %}  </div>
   <div class="col-md-9">
     {{ content }}
   </div>
