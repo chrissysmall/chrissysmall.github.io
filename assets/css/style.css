@@ -6,9 +6,10 @@
 
 
 .col-md-10.bottom {
-  height: 150px;
+  height: 100px;
 }
 
 .col-md-10 {
   height: 500px;
+  padding-top: 10px;
 }
