@@ -8,3 +8,7 @@
 .col-md-10.bottom {
   height: 150px;
 }
+
+.col-md-10 {
+  height: 500px;
+}
