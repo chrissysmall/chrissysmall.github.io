@@ -14,4 +14,8 @@
   padding-top: 20px;
 }
 
- .superscript{font-size:xx-small; vertical-align:top;} 
+ .superscript{font-size:xx-small; vertical-align:top;}
+
+.navbar {
+  background-color: #AB035C;
+}
