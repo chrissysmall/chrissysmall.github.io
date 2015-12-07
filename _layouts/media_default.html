@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.title }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-theme.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+</head>
+<body>
+<div class="container">
+<div class="row">
+  <div class="col-md-6 col-md-offset-4">
+  <h1>{{ page.title }}</h1>
+</div>
+</div>
+  <div class="row">
+    {% include navbar.html %}
+</div>
+<div class="row">
+<div class="col-md-10 col-md-offset-1">
+  <!-- The carousel will fill its container. Be sure to create a container that will match your image size. Here, I create a col-6 container for the carousel, since my images are about the right proportions for that. -->
+      <!-- Carousel code starts here -->
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <!-- These add the little "bullets" at the bottom of the show, indicating how many slides there are, and which slide is being displayed. If you add a slide to the initial 3, add an indicator. -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <!-- Each slide consists of a div with the "item" class, which has nested inside of it an image, and a caption div. The first slide starts out with the active class, which is then reassigned by the javascript -->
+          <div class="item active">
+            <img src="/PTB2.jpeg" alt="Interns at the Pink Tide Ball">
+            <div class="carousel-caption">
+              <!--Write your slide caption, if any, here-->
+          </div>
+
+</div>
+</div>
+<div class="row">
+  <div class="col-md-10 col-md-offset-1 bottom">
+    blah blah blah include nav bar like thing for social media blah blah blah
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-10 col-md-offset-1 bottom">
+    blah blah blah blah links to resources blah blah blah
+  </div>
+</div>
+
+
+
+</div>
+</body>
+</html>
