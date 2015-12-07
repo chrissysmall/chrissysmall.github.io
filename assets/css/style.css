@@ -18,6 +18,10 @@
   height: 400px;
 }
 
+.bars {
+  height: 40px;
+}
+
  .superscript{font-size:xx-small; vertical-align:top;}
 
 .nav {
